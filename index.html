@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header" class="absolute w-full text-white p-10 z-50">
+        <div class="sm:container relative w-full 2xl:w-[1170px] sm:m-auto flex justify-between items-center border-b pb-7">
+            <div><a href="#">
+                    <img src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/logo.png"
+                        alt="kasperlogo">
+                </a>
+            </div>
+            <div class="md:hidden flex">
+                <i id="burger_button" class=" fa-solid fa-bars !self-center pr-5  text-2xl cursor-pointer !flex" style="color: #ffffff;"></i>
+                <ul id="list" class="hidden w-full bg-black bg-opacity-40 absolute top-[80px] left-0">
+                    <li><a class="p-4 block border-b text-cyan-400 border-b-cyan-400" href="#">Home</a>
+                    </li>
+                    <li><a class="p-4 block border-b border-opacity-10 border-black hover:border-b hover:border-cyan-400 hover:text-cyan-400 transition-all" href="#">Services</a>
+                    </li>
+                    <li><a class="p-4 block border-b border-opacity-10 border-black hover:border-b hover:border-cyan-400 hover:text-cyan-400 transition-all" href="#">Portfolio</a>
+                    </li>
+                    <li><a class="p-4 block border-b border-opacity-10 border-black hover:border-b hover:border-cyan-400 hover:text-cyan-400 transition-all" href="#"
+                            >About</a>
+                    </li>
+                    <li><a class="p-4  block border-b border-opacity-10 border-black hover:border-b hover:border-cyan-400 hover:text-cyan-400 transition-all" href="#"
+                            >Pricing</a>
+                    </li>
+                    <li><a class="p-4 block border-b border-opacity-10 border-black hover:border-b hover:border-cyan-400 hover:text-cyan-400 transition-all" href="#"
+                            >Contact</a>
+                    </li>
+                </ul>
+                <div class="md:hidden border-l pl-7 text-white text-2xl">
+                    <i class="cursor-pointer fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            
+            <ul class="md:flex hidden space-x-6 ">
+                <li><a href="#"
+                        class="hover:text-blue-400 hover:border-b hover:border-blue-400 py-[2.5rem] transition-all">Home</a>
+                </li>
+                <li><a href="#"
+                        class="hover:text-blue-400 hover:border-b hover:border-blue-400 py-[2.5rem] transition-all">Services</a>
+                </li>
+                <li><a href="#"
+                        class="hover:text-blue-400 hover:border-b hover:border-blue-400 py-[2.5rem] transition-all">Portfolio</a>
+                </li>
+                <li><a href="#"
+                        class="hover:text-blue-400 hover:border-b hover:border-blue-400 py-[2.5rem] transition-all">About</a>
+                </li>
+                <li><a href="#"
+                        class="hover:text-blue-400 hover:border-b hover:border-blue-400 py-[2.5rem] transition-all">Pricing</a>
+                </li>
+                <li><a href="#"
+                        class="hover:text-blue-400 hover:border-b hover:border-blue-400 py-[2.5rem] transition-all">Contact</a>
+                </li>
+                <div class="border-l pl-7 text-white text-2xl">
+                    <i class="cursor-pointer fa-solid fa-magnifying-glass"></i>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="swiper flex justify-start items-center">
+            <div
+                class="absolute text-sm md:text-lg z-10 2xl:w-[50%] md:w-[70%] w-[100%] 2xl:pl-96 xl:pl-70 pl-[4rem] bg-cyan-500 bg-opacity-40 sm:p-10 py-6 text-white">
+                <div class="text-3xl">
+                    <h1>Hello World!</h1>
+                    <p class="mt-2">We Are Kasper We Make Art.</p>
+                </div>
+                <p class="mt-5">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                    blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
+                    Mauris
+                    blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="slide-1 swiper-slide">
+                </div>
+                <div class="slide-2 swiper-slide">
+                </div>
+                <div class="slide-3 swiper-slide">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev text-white"></div>
+            <div class="swiper-button-next text-white"></div>
+        </div>
+    </div>
+    <div class="pb-40">
+        <h2
+            class="pt-24 pb-10 border-b-2 relative before:absolute before:content-[''] before:w-[1.2rem] before:h-[1.2rem] before:rounded-3xl before:-bottom-[10px] before:left-[75px] before:border-2 before:border-black before:bg-white border-black w-fit mx-auto text-center text-[2.5rem]">
+            SERVICES</h2>
+        <p class="p-16 sm:text-lg text-gray-500 text-center xl:w-[41rem] 2xl:w-[41rem] mx-auto">Curabitur arcu erat,
+            accumsan id imperdiet et, porttitor
+            at sem. Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+        <div
+            class="grid md:grid-cols-2 grid-cols-1 gap-y-8 m-auto 2xl:w-[1384px] xl:w-[1180px] justify-between items-center">
+            <div class="flex sm:flex-row justify-center sm:text-left text-center flex-col gap-14">
+                <span class="material-symbols-outlined">
+                    desktop_windows
+                </span>
+                <div class="space-y-8">
+                    <h3 class="text-cyan-400 font-bold text-2xl">Vorem amet intuitive
+                    </h3>
+                    <p class="2xl:w-[450px] xl:w-[350px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex sm:flex-row  justify-center sm:text-left text-center flex-col gap-14">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+                <div class="space-y-8">
+                    <h4 class="text-cyan-400 font-bold text-2xl">Vorem amet intuitive
+                    </h4>
+                    <p class="2xl:w-[450px] xl:w-[350px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex sm:flex-row  justify-center sm:text-left text-center flex-col gap-14">
+                <span class="material-symbols-outlined">
+                    design_services
+                </span>
+                <div class="space-y-8">
+                    <h5 class="text-cyan-400 font-bold text-2xl">Vorem amet intuitive
+                    </h5>
+                    <p class="2xl:w-[450px] xl:w-[350px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex sm:flex-row  justify-center sm:text-left text-center flex-col gap-14">
+                <span class="material-symbols-outlined">
+                    photo_camera
+                </span>
+                <div class="space-y-8">
+                    <h6 class="text-cyan-400 font-bold text-2xl">Vorem amet intuitive
+                    </h6>
+                    <p class="2xl:w-[450px] xl:w-[350px]">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="as-1 p-20 relative h-[600px] ">
+        <div class="flex container  items-center mx-auto">
+            <div class="image md:h-[400px] h-0 md:opacity-100 opacity-0"></div>
+            <div
+                class="absolute right-0 top-[120px] text-sm md:text-lg z-10 2xl:w-[50%] md:w-[70%] w-[100%] 2xl:pr-96 xl:pr-70 pr-[4rem] bg-cyan-600 bg-opacity-70 p-10 text-white">
+                <p class="mb-8 text-2xl">OUR DESIGN COMES WITH...</p>
+                <ul class="space-y-4 text-base">
+                    <li class="flex gap-5">
+                        <span class="material-symbols-outlined mm">
+                            desktop_windows
+                        </span>
+                        Responsive Design
+                    </li>
+                    <li class="flex gap-5">
+                        <span class="material-symbols-outlined mm">
+                            desktop_windows
+                        </span>
+                        Modern And Clean Design
+                    </li>
+                    <li class="flex gap-5">
+                        <span class="material-symbols-outlined mm">
+                            desktop_windows
+                        </span>
+                        Clean Code
+                    </li>
+                    <li class="flex gap-5">
+                        <span class="material-symbols-outlined mm">
+                            desktop_windows
+                        </span>
+                        Browser Friendly
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2
+            class="pt-24 pb-10 border-b-2 relative before:absolute before:content-[''] before:w-[1.2rem] before:h-[1.2rem] before:rounded-3xl before:-bottom-[10px] before:left-[95px] before:border-2 before:border-black before:bg-white border-black w-fit mx-auto text-center text-[2.5rem]">
+            PORTFOLIO</h2>
+        <p class="p-16 sm:text-lg text-gray-500 text-center xl:w-[41rem] 2xl:w-[41rem] mx-auto">Curabitur arcu erat,
+            accumsan id imperdiet et, porttitor
+            at sem. Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+        <div class="text-center space-x-4 ">
+            <span class="bg-cyan-400 text-white py-1 px-2 transition-all cursor-pointer ">All</span>
+            <span class="hover:bg-cyan-400 hover:text-white py-1 px-2 transition-all cursor-pointer ">App</span>
+            <span class="hover:bg-cyan-400 hover:text-white py-1 px-2 transition-all cursor-pointer ">Photo</span>
+            <span class="hover:bg-cyan-400 hover:text-white py-1 px-2 transition-all cursor-pointer ">Web</span>
+            <span class="hover:bg-cyan-400 hover:text-white py-1 px-2 transition-all cursor-pointer ">Print</span>
+        </div>
+    </div>
+    <div class="flex flex-col items-center gap-y-10 pb-28">
+
+        <div id="gallery" class="grid  2xl:grid-cols-4 xl:grid-cols-2 md:grid-cols-2 2xl:grid-rows-2  gap-y-3 pt-20">
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="one object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-01.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="two object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-02.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="three object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-03.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="four object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-04.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="five object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-05.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="six object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-06.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="seven object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-07.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+            <div class="w-full group relative overflow-hidden h-full">
+                <img class="eight object-cover w-full h-full object-center  group-hover:scale-[1.1] group-hover:rotate-[2deg] transition-all duration-200"
+                    src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-08.jpg">
+                <div
+                    class="bg-white w-full p-4 h-[100px] group-hover:bottom-0 absolute -bottom-[150px] transition-all ">
+                    <p class="text-lg">Awesome Image</p>
+                    <p class="text-cyan-500">Photography</p>
+                </div>
+            </div>
+        </div>
+        <button class="px-5 py-3  bg-cyan-500 text-white tracking-wider">MORE</button>
+    </div>
+    <div class="relative">
+        <video autoplay muted loop class="brightness-50 w-full">
+            <source src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/awesome-video.mp4">
+        </video>
+        <div
+            class="absolute top-[50%] p-10 left-[50%] -translate-x-[50%] -translate-y-[50%] bg-cyan-500 w-full bg-opacity-50 text-center text-white">
+            <p class="text-2xl">SUPER AWESOME VIDEO HERE</p>
+            <p class="p-5">Its All You Need</p>
+            <button class="bg-black p-2 px-5">SEE MORE</button>
+        </div>
+    </div>
+    <div class="flex flex-col items-center">
+        <h2
+            class="pt-24 pb-10 border-b-2 relative before:absolute before:content-[''] before:w-[1.2rem] before:h-[1.2rem] before:rounded-3xl before:-bottom-[10px] before:left-[87px] before:border-2 before:border-black before:bg-white border-black w-fit mx-auto text-center text-[2.5rem]">
+            ABOUT US</h2>
+        <p class="p-16 sm:text-lg text-gray-500 text-center xl:w-[41rem] 2xl:w-[41rem] mx-auto">Curabitur arcu erat,
+            accumsan id imperdiet et, porttitor
+            at sem. Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+        <img class="sm:-mb-40 -mb-[6rem]"
+            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/about.png" alt="screens">
+        <div class="ww relative xl:h-[450px] h-[100vh]">
+            <div
+                class="absolute top-[50%] 2xl:p-10 p-[1.5rem] left-[50%] w-[60%] -translate-x-[50%]  -translate-y-[50%] bg-cyan-500 grid gap-4 2xl:grid-cols-4 xl:grid-cols-2 grid-cols1  bg-opacity-50 text-center text-white">
+                <div class="text-center">
+                    <span class="material-symbols-outlined coffe">
+                        coffee
+                    </span>
+                    <p class="sm:text-5xl text-3xl font-bold sm:p-8 p-4">1,236</p>
+                    <span>Coffe Drinks</span>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined coffe">
+                        folder
+                    </span>
+                    <p class="sm:text-5xl text-3xl font-bold sm:p-8 p-4">256</p>
+                    <span>Completed Projects</span>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined coffe">
+                        mail
+                    </span>
+                    <p class="sm:text-5xl text-3xl font-bold sm:p-8 p-4">1,743</p>
+                    <span>Mail Sent</span>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined coffe">
+                        emoji_events
+                    </span>
+                    <p class="sm:text-5xl text-3xl font-bold sm:p-8 p-2">17</p>
+                    <span>Awards Received</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" grid xl:grid-cols-2 grid-cols-1 xl:gap-y-0 gap-y-10 p-24">
+        <div>
+            <p class="text-center text-lg">TESTIMONIALS</p>
+            <p class="p-5 mb-10 sm:text-lg text-gray-500 text-center sm:w-[25rem] xl:w-[31rem] 2xl:w-[31rem] mx-auto">
+                Curabitur arcu erat,
+                accumsan id imperdiet et, porttitor
+                at sem. Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+            <div class="flex flex-col justify-center items-center gap-y-5">
+                <div class="flex  justify-center items-center lg:flex-nowrap flex-wrap gap-y-5">
+                    <img class="h-[100px] mr-5 self-start rounded-full"
+                        src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/skills-01.jpg"
+                        alt="myphoto">
+                    <div class="flex flex-col  justify-center items-center border-b border-gray-400 pb-5 ">
+                        <p class="xl:w-[31rem] xl:text-[17px] mb-5 2xl:w-[20rem]">Curabitur arcu erat, accumsan id
+                            imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt.</p>
+                        <span class="self-end text-sm text-gray-400">Marwan Pablo, CEO</span>
+                    </div>
+                </div>
+                <div class="flex  justify-center items-center lg:flex-nowrap flex-wrap gap-y-5">
+                    <img class="h-[100px] mr-5 self-start rounded-full"
+                        src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/skills-02.jpg"
+                        alt="myphoto">
+                    <div class="flex flex-col justify-center items-center border-b border-gray-400 pb-5 ">
+                        <p class="xl:w-[31rem] xl:text-[17px] mb-5 2xl:w-[20rem]">Curabitur arcu erat, accumsan id
+                            imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt.</p>
+                        <span class="self-end text-sm text-gray-400">Marwan Pablo, CEO</span>
+                    </div>
+                </div>
+                <div class="space-x-4 flex justify-center items-center mt-5">
+                    <div class="w-4 h-4 bg-transparent border border-black rounded-full"></div>
+                    <div class="w-4 h-4 bg-cyan-500 rounded-full"></div>
+                    <div class="w-4 h-4 bg-transparent border border-black rounded-full"></div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center flex flex-col  items-center ">
+            <p class="text-lg">SKILLS</p>
+            <p class="p-5 mb-6 sm:text-lg text-gray-500 text-center sm:w-[25rem] xl:w-[31rem] 2xl:w-[31rem] mx-auto">
+                Curabitur arcu erat,
+                accumsan id imperdiet et, porttitor
+                at sem. Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+            <div
+                class="before:content-['90%'] before:bg-black before:text-white before:p-1 before:text-center before:rounded-md before:absolute before:z-10 before:bottom-[54px] before:right-[30px] after:content-[''] after:w-[8px] after:h-[8px]  after:border-4 after:border-t-black after:border-b-transparent after:border-l-transparent  after:border-r-transparent after:bottom-[46px] after:right-[45px] after:absolute relative flex flex-col justify-center items-center mb-5">
+                <p class="self-start text-lg mb-2">ADOBE</p>
+                <div
+                    class="2xl:w-[500px] xl:w-[350px] sm:w-[500px] w-[250px] h-8 bg-gray-300  before:content-[''] before:w-[90%] before:h-full before:bg-cyan-500 before:absolute relative before:left-0">
+                </div>
+            </div>
+            <div
+                class="before:content-['85%'] before:bg-black before:text-white before:p-1 before:text-center before:rounded-md before:absolute before:z-10 before:bottom-[48px] before:right-[48px] after:content-[''] after:w-[8px] after:h-[8px]  after:border-4 after:border-t-black after:border-b-transparent after:border-l-transparent  after:border-r-transparent after:bottom-[40px] after:right-[62px] after:absolute relative flex flex-col justify-center items-center mb-5">
+                <p class="self-start text-lg mb-2">HTML & CSS</p>
+                <div
+                    class="2xl:w-[500px] xl:w-[350px] sm:w-[500px] w-[250px] h-8 bg-gray-300  before:content-[''] before:w-[85%] before:h-full before:bg-cyan-500 before:absolute relative before:left-0">
+                </div>
+            </div>
+            <div
+                class="before:content-['80%'] before:bg-black before:text-white before:p-1 before:text-center before:rounded-md before:absolute before:z-10 before:bottom-[42px] before:right-[69px] after:content-[''] after:w-[8px] after:h-[8px]  after:border-4 after:border-t-black after:border-b-transparent after:border-l-transparent  after:border-r-transparent after:bottom-[34px] after:right-[80px] after:absolute relative flex flex-col justify-center items-center mb-5">
+                <p class="self-start text-lg mb-2">JAVASCRIPT</p>
+                <div
+                    class="2xl:w-[500px] xl:w-[350px] sm:w-[500px] w-[250px] h-8 bg-gray-300  before:content-[''] before:w-[80%] before:h-full before:bg-cyan-500 before:absolute relative before:left-0">
+                </div>
+            </div>
+            <div
+                class="before:content-['90%'] before:bg-black before:text-white before:p-1 before:text-center before:rounded-md before:absolute before:z-10 before:bottom-[46px] before:right-[30px] after:content-[''] after:w-[8px] after:h-[8px]  after:border-4 after:border-t-black after:border-b-transparent after:border-l-transparent  after:border-r-transparent after:bottom-[38px] after:right-[45px] after:absolute relative flex flex-col justify-center items-center mb-5">
+                <p class="self-start text-lg mb-2">PHP</p>
+                <div
+                    class="2xl:w-[500px] xl:w-[350px] sm:w-[500px] w-[250px] h-8 bg-gray-300  before:content-[''] before:w-[90%] before:h-full before:bg-cyan-500 before:absolute relative before:left-0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="downdown flex flex-col gap-y-10 text-white justify-center items-center text-center">
+        <p class="max-w-[700px] sm:text-3xl text-lg"><q>accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                aliquet
+                elit, eget tincidunt.</q>
+        </p>
+        <p>Marwan Pablo</p>
+    </div>
+    <div class="text-center pb-20 flex flex-col items-center justify-center">
+        <h2
+            class="pt-24 pb-10 border-b-2 relative before:absolute before:content-[''] before:w-[1.2rem] before:h-[1.2rem] before:rounded-3xl before:-bottom-[10px] before:left-[68px] before:border-2 before:border-black before:bg-white border-black w-fit mx-auto text-center text-[2.5rem]">
+            PRICING</h2>
+        <p class="p-16  sm:text-lg text-gray-500 text-center xl:w-[41rem] 2xl:w-[41rem] mx-auto">Curabitur arcu erat,
+            accumsan id imperdiet et, porttitor
+            at sem. Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+        <div
+            class="grid w-[95%] pb-20 gap-4 xl:grid-cols-4 md:grid-cols-2 grid-cols-1  items-center justify-items-center">
+            <div
+                class="border-t-2 border-b-2 border-t-cyan-400 border-b-cyan-400 flex text-lg w-[95%] bg-gray-50 py-10 items-center space-y-7 justify-center flex-col">
+                <div class="border-b-2 pb-5 w-full border-b-cyan-400">
+                    <p class="text-xl mb-7">BASIC</p>
+                    <span class="text-5xl mb-7 font-bold"><sup class="pointer-events-none">$</sup>19<span
+                            class="text-lg"> /Mo</span></span>
+                </div>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Feature No 1</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature No 2</p>
+                <p class="w-full border-b-2 border-b-cyan-400 pb-5">Feature</p>
+                <button class="py-2 px-5 bg-cyan-500 font-bold text-white">Buy Now</button>
+            </div>
+            <div
+                class="border-t-2 border-b-2 border-t-cyan-400 border-b-cyan-400 flex text-lg w-[95%] bg-gray-50 py-10 items-center space-y-7 justify-center flex-col">
+                <div class="border-b-2 pb-5 w-full border-b-cyan-400">
+                    <p class="text-xl mb-7">PREMIUM</p>
+                    <span class="text-5xl mb-7 font-bold"><sup class="pointer-events-none">$</sup>29<span
+                            class="text-lg"> /Mo</span></span>
+                </div>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Feature No 1</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature No 2</p>
+                <p class="w-full border-b-2 border-b-cyan-400 pb-5">Feature</p>
+                <button class="py-2 px-5 bg-cyan-500 font-bold text-white">Buy Now</button>
+            </div>
+            <div
+                class="border-t-2 border-b-2 border-t-cyan-400 border-b-cyan-400 flex text-lg w-[95%] bg-gray-50 py-10 items-center space-y-7 justify-center flex-col">
+                <div class="border-b-2 pb-5 w-full border-b-cyan-400">
+                    <p class="text-xl mb-7">PRO</p>
+                    <span class="text-5xl mb-7 font-bold"><sup class="pointer-events-none">$</sup>39<span
+                            class="text-lg"> /Mo</span></span>
+                </div>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Feature No 1</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature No 2</p>
+                <p class="w-full border-b-2 border-b-cyan-400 pb-5">Feature</p>
+                <button class="py-2 px-5 bg-cyan-500 font-bold text-white">Buy Now</button>
+            </div>
+            <div
+                class="border-t-2 border-b-2 border-t-cyan-400 border-b-cyan-400 flex text-lg w-[95%] bg-gray-50 py-10 items-center space-y-7 justify-center flex-col">
+                <div class="border-b-2 pb-5 w-full border-b-cyan-400">
+                    <p class="text-xl mb-7">PLATINUM</p>
+                    <span class="text-5xl mb-7 font-bold"><sup class="pointer-events-none">$</sup>49<span
+                            class="text-lg"> /Mo</span></span>
+                </div>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Feature No 1</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature</p>
+                <p class=" border-b-2 p-2 border-b-cyan-400">Extra Feature No 2</p>
+                <p class="w-full border-b-2 border-b-cyan-400 pb-5">Feature</p>
+                <button class="py-2 px-5 bg-cyan-500 font-bold text-white">Buy Now</button>
+            </div>
+        </div>
+        <p class="text-xl mb-5">Contact Us if you have a special request</p>
+        <button class="py-2 px-7 bg-cyan-500 text-white">Contact Us</button>
+    </div>
+    <div class="uni flex lg:flex-row flex-col  items-center justify-center gap-5">
+        <div class="border border-white flex items-center sm:pl-5 pl-2">
+            <span class="material-symbols-outlined message">
+                mail
+            </span>
+            <input
+                class="bg-transparent w-[130px] sm:w-full text-white placeholder:text-white caret-cyan-300 focus:outline-none focus:border-none"
+                type="email" placeholder="Your Email" name="email" id="email">
+            <input class="sm:py-4 sm:px-7 py-2 px-4 bg-cyan-500 text-white" type="submit" value="SUBSCRIBE">
+        </div>
+        <p class="text-white max-w-[600px] ml-2 text-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+            sem. Mauris blan dit aliquet elit, eget
+            tincidunt.
+        </p>
+    </div>
+    <div>
+        <h2
+            class="pt-24 pb-10 border-b-2 relative before:absolute before:content-[''] before:w-[1.2rem] before:h-[1.2rem] before:rounded-3xl before:-bottom-[10px] before:left-[107px] before:border-2 before:border-black before:bg-white border-black w-fit mx-auto text-center text-[2.5rem]">
+            CONTACT US</h2>
+        <p class="p-16  sm:text-lg text-gray-500 text-center xl:w-[41rem] 2xl:w-[41rem] mx-auto">Curabitur arcu erat,
+            accumsan id imperdiet et, porttitor
+            at sem. Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+        <div class="flex justify-center sm:flex-nowrap flex-wrap gap-20 items-center pb-20">
+            <form action="" class="flex flex-col gap-6" method="post">
+                <input
+                    class="border border-gray-400 focus:outline-none p-4 placeholder:text-gray-500 sm:w-[280px] lg:w-[500px]  xl:w-[600px] 2xl:w-[750px]"
+                    type="text" placeholder="Your Name">
+                <input type="email"
+                    class="border border-gray-400 focus:outline-none p-4 placeholder:text-gray-500  sm:w-[280px] lg:w-[500px] xl:w-[600px] 2xl:w-[750px]"
+                    placeholder="Your Email">
+                <textarea
+                    class="border min-h-[200px]  border-gray-400 focus:outline-none p-4 placeholder:text-gray-500 sm:w-[280px] lg:w-[500px] xl:w-[600px]  2xl:w-[750px]"
+                    placeholder="Your Message" style="resize: none;"></textarea>
+                <input type="submit" class="self-end bg-cyan-400 py-3 px-5 text-white cursor-pointer"
+                    value="SEND MESSAGE">
+            </form>
+            <div class="flex flex-col justify-between self-start  h-[350px]">
+                <div class="text-lg">
+                    <p class="mb-5">GET IN TOUCH</p>
+                    <p class="text-gray-600">+00 123 456 789</p>
+                    <p class="text-gray-600">+00 123 456 789</p>
+                </div>
+                <div class="text-lg">
+                    <p class="mb-5">WHERE WE ARE</p>
+                    <div class="text-gray-600 italic">
+                        <p>Awesome Address 17</p>
+                        <p>Cairo, EGY</p>
+                        <p>123-456-789</p>
+                        <p>EGY</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uni-2 h-full pb-16 flex  items-center flex-col space-y-8">
+        <img class="m-10" src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/logo.png" alt="logo">
+        <p class="border-b-2 relative border-white text-[1.4rem] text-white pb-5">WE ARE SOCIAL</p>
+        <div class="space-x-7 text-[1rem] pointer-events-none selection:bg-none">
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-house-chimney" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+        </div>
+        <p class="text-white text-lg">© 2023 <span class="font-bold text-cyan-400">Kasper</span> All Right Reserved</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

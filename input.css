@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.slide-1 {
+    background-image: url("https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/landing.jpg");
+}
+.slide-2 {
+    background-image: url("../src/owl-dark-background-moonlight-blue-forest-bokeh-flying-5k-6000x4000-2338.jpg");
+}
+.slide-3 {
+    background-image: url("https://i.pinimg.com/originals/c1/ee/8c/c1ee8cbc620617da3ed213efd2a0c2de.jpg");
+}
+.slide-1,.slide-2,.slide-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.5);
+}
+.swiper-pagination {
+    padding-bottom: 20px;
+}
+.swiper-pagination span {
+    width: 20px;
+    height: 20px;
+    border:  1px solid white;
+    
+}
+div.swiper-button-prev {
+    position:  absolute;
+    z-index:  40;
+}
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+
+.material-symbols-outlined {
+    font-size: 4rem !important;
+    cursor: default;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+        font-size: 25px !important;
+        font-weight: bolder !important;
+
+}
+.as-1{
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 37%)),
+    url(https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/design-features.jpg);
+    background-size: cover;
+}
+.mm {
+    font-size: 2rem !important;
+    
+}
+.image {
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-image: url("https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/mobile.png");
+}
+
+.ww {
+    width: 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 37%)),
+    url(https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/stats.png);
+    background-size: cover;
+}
+
+.coffe {
+    font-size: 1.5rem !important;
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.downdown {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 37%)),
+    url(https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/quote.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.uni {
+    padding: 7rem 0;
+    width: 100%;
+    background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 37%)),
+    url(https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.uni-2 {
+    width: 100%;
+    background: linear-gradient(rgb(0 0 0 / 65%), rgb(0 0 0 / 37%)),
+    url(https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message {
+    font-size: 24px !important;
+    color: white !important;
+    padding-right: 10px;
+    pointer-events: none;
+    cursor: default;
+}
+ .message::selection {
+    background: none;
+}
